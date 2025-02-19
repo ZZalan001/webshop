@@ -63,7 +63,7 @@ export default function App() {
           <Button component={Link} to="/" mr="sm">Főoldal</Button>
           <Button component={Link} to="/tipusok" mr="sm">Típusok</Button>
           <Button component={Link} to="/uj-tipus">Új típus</Button>
-
+          
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/tipusok" element={<TipusList />} />
